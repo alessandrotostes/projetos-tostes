@@ -49,6 +49,27 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+nav {
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.363);
+    
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav  a:hover {
+    text-decoration: underline;
+    color: midnightblue
+}
+
 section {
     padding-top: 20vh;
     padding-bottom: 20vh;
@@ -95,6 +116,23 @@ section#img02 {
     background-attachment: fixed;
 }
 
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58.5%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 1% ;
+    left: 1% ;
+    width: 50% ;
+    height: 50%;
+    
+}
+
 footer {
     background-color: black;
     text-align: center;
@@ -107,5 +145,4 @@ footer a:hover {
     text-decoration: underline;
     color: rgb(166, 166, 185);
 }
-
 
